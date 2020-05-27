@@ -1,0 +1,187 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+}
+
+p {
+  color: #000000;
+  /*color: #8f8f8f;*/
+}
+
+/* Headings */
+.big-heading {
+  line-height: 1.5;
+  font-size: 3.5rem;
+  font-weight: 900;
+}
+
+.section-heading {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #203541;
+  color: #FFC40B;
+}
+
+.white-section {
+  background-color: #FFC40B;
+  color: #203541;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #FFC40B;
+}
+
+.nav-item {
+  padding: 0 18px;
+  color: #FFC40B;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+  
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title stuff */
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.title-img {
+  width: 100%;
+  position: static;
+  right: 30%;
+}
+
+/* Features Section */
+
+.icon {
+  color: #374955;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #203541;
+}
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: #374955 ;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1.5;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+
+.card-h {
+  font-size: 1.8rem;
+  font-weight: 800;
+  line-height: 1.5;
+}
+
+.factions-img {
+  width: 60%;
+  height: 60%;
+  padding: 20px;
+}
+
+.price-text {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* CTA */
+.random-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Footer */
+
+.contact-icon {
+  margin: 20px 10px;
+}
+
+#contributer_link {
+  text-decoration: none;
+}
+
+.card-body p{
+  color: #FFC40B;
+}
+
+@media (max-width: 1020px) {
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+  #title {
+    text-align: center;
+  }
+}
